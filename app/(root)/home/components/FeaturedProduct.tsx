@@ -8,7 +8,7 @@ import { MdArrowOutward } from 'react-icons/md';
 function FeaturedProduct() {
   return (
     <div className='flex flex-col gap-16 my-14 md:my-18 lg:my-20'>
-      <h1 className='text-3xl font-medium text-center md:text-6xl lg:text-7xl'>Featured Product</h1>
+      <h1 className='text-3xl font-medium text-center uppercase md:text-6xl lg:text-7xl'>Featured Product</h1>
     <div className='grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-12 lg:grid-cols-2  lg:gap-20'>
       {
         FeaturedProductsData.map(data=>(

@@ -3,6 +3,11 @@ import React from 'react'
 import PartOne from './components/heading'
 import TransformingIdea from './components/transformingIdea'
 import FeaturedProduct from './components/FeaturedProduct'
+import CurrentFocus from './components/currentFocus'
+import OurTestimonial from './components/ourTestimonial'
+import HowItWorks from './components/howItWorks'
+import Footer from '@/components/Footer'
+import ReadOurBlog from './components/ReadOurBlog'
 
 function LandingPage() {
   return (
@@ -12,6 +17,10 @@ function LandingPage() {
       <TransformingIdea />
       <FeaturedProduct />
       <CurrentFocus />
+      <OurTestimonial />
+      <HowItWorks />
+      <ReadOurBlog />
+      
     </div>
   )
 }

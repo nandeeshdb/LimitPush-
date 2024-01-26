@@ -63,8 +63,9 @@ function TransformingIdea() {
         <Image
         src="/transformImage.png"
         alt="no"
-        height={200}
-        width={200}
+        height={300}
+        width={300}
+        
          />
       </div>
 
