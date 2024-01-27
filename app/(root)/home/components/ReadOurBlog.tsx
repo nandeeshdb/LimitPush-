@@ -52,16 +52,27 @@ function ReadOurBlog() {
     <div className="hidden lg:grid lg:grid-cols-2 lg:gap-8">
         {
             ReadOurBlogData.map(data=>(
-                <div className="border border-black rounded-2xl" key={data[0].id}>
-                    <div className="flex flex-col py-6 px-10 ">
-                        <div className="flex items-center">
-                            <p>{data[0].date}</p>
+                <div className="border border-black rounded-2xl" key={data.id}>
+            <div className="flex  gap-4">
+                <img 
+                src={data.image}
+                alt="no"
+                className="h-72 w-56 border border-r-black rounded-2xl" 
+                />
 
-                        </div>
-
-                    </div>
+                <div className="flex flex-col py-8 px-4 gap-10 items-start">
+                <p className="bg-slate-200 border border-black px-4  rounded-2xl ">{data.date}</p>
+                <p className="text-3xl font-normal uppercase">{data.name}</p>
+                <button className="flex items-center gap-2 text-slate-700 text-lg font-medium uppercase">
+                            <span>Learn More</span>
+                            <span className="border border-slate-600 rounded-full p-1"><MdOutlineArrowOutward className="w-3 h-3"/></span>
+                        </button>
 
                 </div>
+            </div>
+
+
+        </div>
             ))
         }
 

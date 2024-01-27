@@ -101,7 +101,7 @@ export const ReadOurBlogData=[
         id:1,
         date:"12 Jan 2023",
         name:"The art of story telling in content market",
-        image:'/blog/one.png'
+        image:'/blog/two.png'
         
     },
     {
@@ -115,7 +115,15 @@ export const ReadOurBlogData=[
         date:"12 Jan 2023",
         name:"The art of story telling in content market",
         image:'/blog/three.png'
-    }
+    },
+    
+    {
+        id:4,
+        date:"12 Jan 2023",
+        name:"The art of story telling in content market",
+        image:'/blog/three.png'
+    },
+    
 ]
 
 

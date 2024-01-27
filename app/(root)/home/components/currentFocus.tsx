@@ -25,7 +25,7 @@ function CurrentFocus() {
         <Image
           src="/mouse.png"
           alt='no'
-          width={300}
+          width={400}
           height={500}
           className='w-full h-full rounded-2xl border border-b-black md:border-r-black lg:border-r-black'
         />

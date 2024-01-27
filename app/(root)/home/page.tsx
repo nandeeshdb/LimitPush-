@@ -6,8 +6,9 @@ import FeaturedProduct from './components/FeaturedProduct'
 import CurrentFocus from './components/currentFocus'
 import OurTestimonial from './components/ourTestimonial'
 import HowItWorks from './components/howItWorks'
-import Footer from '@/components/Footer'
 import ReadOurBlog from './components/ReadOurBlog'
+import LetsColabrate from './components/LetsColabrate'
+import Footer from '../../../components/Footer'
 
 function LandingPage() {
   return (
@@ -20,7 +21,8 @@ function LandingPage() {
       <OurTestimonial />
       <HowItWorks />
       <ReadOurBlog />
-      
+      <LetsColabrate />
+      <Footer /> 
     </div>
   )
 }
