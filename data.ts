@@ -1,5 +1,7 @@
 import HowItWorks from "./app/(root)/home/components/howItWorks"
 import ReadOurBlog from './app/(root)/home/components/ReadOurBlog';
+import WhatToExpect from './app/(root)/about-us/components/whatToExpect';
+import TeamMembers from './app/(root)/about-us/components/TeamMembers';
 
 export const FeaturedProductsData =[
  
@@ -124,6 +126,138 @@ export const ReadOurBlogData=[
         image:'/blog/three.png'
     },
     
+]
+
+
+export const WhatToExpectData=[
+    {
+        id:1,
+        name:"UX/CX CENTRIC FOCUS",
+        description:"We take pride in building strong and long-lasting relationships with end users and customers of our products. It's all about the end user's experience."
+    },
+    {
+        id:2,
+        name:"EXPERT TEAM",
+        description:"Our team is comprised of highly skilled professionals who are passionate about what they do. From creative designers to technical wizards."
+    },
+    {
+        id:3,
+        name:"INNOVATION AND CREATIVITY",
+        description:"In a rapidly evolving digital landscape, innovation and creativity are essential to stay ahead. At LimitPush, we foster a culture of innovation."
+    },
+    {
+        id:4,
+        name:"COLLABORATIVE APPROACH",
+        description:"We believe that the best ideas come from collaboration. By working closely with our stakeholders, we foster a collaborative environment."
+    },
+   
+]
+
+
+export const TeamMembersData=[
+    {
+        id:1,
+        name:"NITIN JAISWAL",
+        designation:'CEO',
+        image:'/team/nithin.jpg',
+        facebook:"",
+        linkedin:'',
+        twitter:'',
+        dribble:''
+
+    },
+    {
+        id:2,
+        name:"ENGINEER 1",
+        designation:'Flutter Developer',
+        image:'/team/boy.jpg',
+        facebook:"",
+        linkedin:'',
+        twitter:'',
+        dribble:''
+
+    },
+    {
+        id:3,
+        name:"ENGINEER 2",
+        designation:'React Developer',
+        image:'/team/girl.png',
+        facebook:"",
+        linkedin:'',
+        twitter:'',
+        dribble:''
+
+    },
+    {
+        id:4,
+        name:"ENGINEER 3",
+        designation:'Backend Developer',
+        image:'/team/boy.jpg',
+        facebook:"",
+        linkedin:'',
+        twitter:'',
+        dribble:''
+
+    },
+   
+    {
+        id:5,
+        name:"ENGINEER 4",
+        designation:'React Developer',
+        image:'/team/girl.png',
+        facebook:"",
+        linkedin:'',
+        twitter:'',
+        dribble:''
+
+    },
+    {
+        id:6,
+        name:"ENGINEER 5",
+        designation:'Backend Developer',
+        image:'/team/boy.jpg',
+        facebook:"",
+        linkedin:'',
+        twitter:'',
+        dribble:''
+
+    },
+   
+    {
+        id:7,
+        name:"ENGINEER 6",
+        designation:'AI Developer',
+        image:'/team/girl.png',
+        facebook:"",
+        linkedin:'',
+        twitter:'',
+        dribble:''
+
+    },
+    {
+        id:8,
+        name:"ENGINEER 7",
+        designation:'Game Developer',
+        image:'/team/boy.jpg',
+        facebook:"",
+        linkedin:'',
+        twitter:'',
+        dribble:''
+
+    },
+    {
+        id:9,
+        name:"DESIGNER 1",
+        designation:'UI/UX Designer',
+        image:'/team/girl.png',
+        facebook:"",
+        linkedin:'',
+        twitter:'',
+        dribble:''
+
+    },
+   
+
 ]
 
 
