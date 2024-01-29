@@ -260,4 +260,22 @@ export const TeamMembersData=[
 
 ]
 
+export const ProjectsData = [
+    {
+        id:1,
+        name:"Lofolio",
+        image:"/projects/one.png"
+    },
+    {
+        id:2,
+        name:"Lofolio",
+        image:"/projects/two.png"
+    },
+    {
+        id:3,
+        name:"Lofolio",
+        image:"/projects/one.png"
+    },
+]
+
 
