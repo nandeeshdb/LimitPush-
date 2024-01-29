@@ -15,7 +15,7 @@ function ReadOurBlog() {
     
   return (
     <div className='flex flex-col gap-16 my-14 md:my-18 lg:my-20'>
-    <h1 className='text-3xl font-medium text-center uppercase md:text-6xl lg:text-7xl'>How It's Works.</h1>
+    <h1 className='text-3xl font-medium text-center uppercase md:text-6xl lg:text-7xl'>Read our blogs .</h1>
 
     {/*Mobile view */}
     <div className="flex flex-col gap-8 md:inline-block  lg:hidden">
@@ -57,7 +57,7 @@ function ReadOurBlog() {
                 <img 
                 src={data.image}
                 alt="no"
-                className="h-72 w-56 border border-r-black rounded-2xl" 
+                className="h-80 w-56 border border-r-black rounded-2xl" 
                 />
 
                 <div className="flex flex-col py-8 px-4 gap-10 items-start">

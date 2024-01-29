@@ -279,3 +279,60 @@ export const ProjectsData = [
 ]
 
 
+export const Blogs=[
+    {
+        id:1,
+        name:"navigating the world of influencer",
+        date:"1 Jan 2023",
+        image:'/blogs/one.png'
+    },
+    {
+        id:2,
+        name:"growth the strategies for small companies",
+        date:"1 Jan 2023",
+        image:'/blogs/two.png'
+    },
+    {
+        id:3,
+        name:"the art of pursuvaive copywriting",
+        date:"1 Jan 2023",
+        image:'/blogs/two.png'
+    },
+    {
+        id:4,
+        name:"the phycology of consumner",
+        date:"1 Jan 2023",
+        image:'/blogs/two.png'
+    },
+    {
+        id:5,
+        name:"Desgining for multi screen world",
+        date:"1 Jan 2023",
+        image:'/blogs/one.png'
+    },
+    {
+        id:6,
+        name:"Engaging visual story telling",
+        date:"1 Jan 2023",
+        image:'/blogs/three.png'
+    },
+    {
+        id:7,
+        name:"leveraing analytics for bussiness success",
+        date:"1 Jan 2023",
+        image:'/blogs/three.png'
+    },
+    {
+        id:8,
+        name:"the role of ux design in user experince",
+        date:"1 Jan 2023",
+        image:'/blogs/one.png'
+    },
+    {
+        id:9,
+        name:"harnissing the power of influencer",
+        date:"1 Jan 2023",
+        image:'/blogs/four.png'
+    },
+]
+
